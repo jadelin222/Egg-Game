@@ -7,8 +7,8 @@ PhysicMaterial:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: egg
-  dynamicFriction: 0.48
-  staticFriction: 0.09
-  bounciness: 1
+  dynamicFriction: 0.29
+  staticFriction: 0.1
+  bounciness: 0.52
   frictionCombine: 0
   bounceCombine: 0
