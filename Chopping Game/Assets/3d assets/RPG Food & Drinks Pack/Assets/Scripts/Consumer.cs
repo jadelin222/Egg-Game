@@ -24,10 +24,14 @@ public class Consumer : MonoBehaviour
 
     void Update()
     {
-        if (Time.time - lastChange > interval)
+        //if (Time.time - lastChange > interval)
+        //{
+        //    Consume();
+        //    lastChange = Time.time;
+        //}
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Consume();
-            lastChange = Time.time;
         }
     }
 
